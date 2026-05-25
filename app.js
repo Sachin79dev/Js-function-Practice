@@ -24,29 +24,29 @@ console.log(sqrt(7));
 
 
 // checking whether a number is even or odd
-// function evenOdd() {
-//     let num = Number(prompt("Enter a Number"))
-//     if(num%2 == 0){
-//         console.log("Number is Even!");
-//     }else  {
-//         console.log("Number is Odd!");
-//     }
-// }
+function evenOdd() {
+    let num = Number(prompt("Enter a Number"))
+    if(num%2 == 0){
+        console.log("Number is Even!");
+    }else  {
+        console.log("Number is Odd!");
+    }
+}
 
-// evenOdd();
+evenOdd();
 
 
 //convert Celsius to Fahrenheit
-// function weather() {
-//     let cel = Number(prompt("Enter the Celcius"));
-//     let Fahre;
+function weather() {
+    let cel = Number(prompt("Enter the Celcius"));
+    let Fahre;
 
-//     Fahre = (9/5)*cel + 32;
+    Fahre = (9/5)*cel + 32;
 
-//     console.log(`Fahrenheit is ${Fahre}`); 
-// }
+    console.log(`Fahrenheit is ${Fahre}`); 
+}
 
-// weather();
+weather();
 
 
 //function with default parameter
