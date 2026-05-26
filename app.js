@@ -237,3 +237,18 @@ function subtract(a, b) {
 }
 
 console.log(subtract(10, 4));
+
+
+
+
+
+// impure function
+let count = 0;
+
+function impure() {
+    count++
+    return count
+}
+
+console.log(impure());
+console.log(impure());
