@@ -361,3 +361,19 @@ const myCounter = counter();
 console.log(myCounter());
 console.log(myCounter());
 console.log(myCounter());
+
+
+
+
+// function using map 
+
+
+let arr = [10, 20, 30, 40, 50]
+
+
+let double = arr.map((e, i) => {
+    return e+e
+})
+
+
+console.log(double);
