@@ -212,3 +212,19 @@ function sayHello(a, b) {
 }
 
 cal(sayHello);
+
+
+
+
+
+// function returning another function
+function outerfn() {
+    return function innerfn() {
+        console.log("Inner calling Hey");
+    }
+}
+
+const result = outerfn();
+
+
+result();
