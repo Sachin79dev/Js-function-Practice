@@ -182,3 +182,18 @@ function palindrome(pali) {
 
 
 console.log(palindrome("121"));
+
+
+
+
+
+//function using setTimeout
+function greetings(name) {
+    console.log(`Hello ${name}!`);
+}
+
+setTimeout(function(){
+    greetings("Sachin");
+},2000);
+
+console.log("Waiting for greetings...");
