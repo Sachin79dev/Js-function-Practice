@@ -341,3 +341,23 @@ function factorial2(n) {
 
 
 console.log(factorial2(5));
+
+
+
+
+//closure counter function
+function counter() {
+    let count = 0;
+
+    return function increment() {
+        count++;
+        return count
+    }
+}
+
+const myCounter = counter();
+
+
+console.log(myCounter());
+console.log(myCounter());
+console.log(myCounter());
