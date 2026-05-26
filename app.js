@@ -320,7 +320,7 @@ console.log(power(2, 4));
 //function to memoizes factorial calculation
 const cache = {}
 
-function factorial(n) {
+function factorial2(n) {
 
     if (n in cache) {
         return cache[n]
@@ -331,7 +331,7 @@ function factorial(n) {
     }
 
 
-    let result = n * factorial(n - 1);
+    let result = n * factorial2(n - 1);
 
     cache[n] = result;
 
@@ -340,4 +340,4 @@ function factorial(n) {
 }
 
 
-console.log(factorial(5));
+console.log(factorial2(5));
