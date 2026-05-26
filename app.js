@@ -377,3 +377,21 @@ let double = arr.map((e, i) => {
 
 
 console.log(double);
+
+
+
+
+// function using filter 
+
+
+let arr2 = [10, 22, 33, 44, 55, 66, 77, 99]
+
+
+let even = arr2.filter((e, i) => {
+    if (e % 2 == 0) {
+        return e
+    }
+})
+
+
+console.log(even);
