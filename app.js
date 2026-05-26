@@ -202,15 +202,13 @@ console.log("Waiting for greetings...");
 
 
 // Function to use callback
-function sayHello(a, b) {
-  console.log("Hello!");
-}
-
-
 function cal(callit) {
     callit();
     callit();
 }
 
+function sayHello(a, b) {
+  console.log("Hello!");
+}
 
 cal(sayHello);
