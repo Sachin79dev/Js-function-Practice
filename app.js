@@ -304,3 +304,12 @@ function power(base, exp) {
 
 
 console.log(power(2, 4));
+
+
+
+
+//IIFE Function
+(function () {
+    console.log("Excecuted");
+    
+})();
