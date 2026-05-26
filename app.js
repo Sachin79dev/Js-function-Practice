@@ -395,3 +395,21 @@ let even = arr2.filter((e, i) => {
 
 
 console.log(even);
+
+
+
+
+
+
+// function using reduce 
+
+
+let arr2 = [10, 22, 33, 44, 55, 66, 77, 99]
+
+
+let sum = arr2.reduce((e, i) => {
+    return e+e
+})
+
+
+console.log(sum);
