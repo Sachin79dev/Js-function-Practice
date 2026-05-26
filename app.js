@@ -313,3 +313,31 @@ console.log(power(2, 4));
     console.log("Excecuted");
     
 })();
+
+
+
+
+//function to memoizes factorial calculation
+const cache = {}
+
+function factorial(n) {
+
+    if (n in cache) {
+        return cache[n]
+    }
+
+    if (n === 1) {
+        return 1;
+    }
+
+
+    let result = n * factorial(n - 1);
+
+    cache[n] = result;
+
+
+    return result;
+}
+
+
+console.log(factorial(5));
